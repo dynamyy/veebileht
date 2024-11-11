@@ -1,17 +1,17 @@
 .grid-konteiner {
     display: grid;
-    grid-template-columns: 10%, 90%;
+    grid-template-columns: 20% 90%;
     height: 100vh;
 }
 
 .menüü {
     grid-column: 1;
     grid-row: 1;
-    border: 1px, solid;
+    border: 1px solid;
 }
 
 .keha {
     grid-column: 2;
     grid-row: 1;
-    border: 1px, solid;
+    border: 1px solid;
 }
