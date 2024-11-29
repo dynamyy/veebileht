@@ -1,7 +1,7 @@
 body {background-color: rgb(15, 15, 15);}
 
 .main {
-    background-image: url(rock_guitarist.jpg);
+    background-image: url(../pildid/peazanrite_pildid/rock_guitarist.jpg);
     position: relative;
     height: 615px;
 }
