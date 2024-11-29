@@ -1,0 +1,133 @@
+.grid-konteiner {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+
+.menüü {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    max-width: 100%;
+    text-wrap: nowrap;
+}
+
+.menüünupp {
+    position: relative;
+    left: calc(95% - 30px);
+    height: 40px;
+    width: 40px;
+}
+
+.nuputriip {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.triip1 {
+    transform: translate(0, 11px) rotate(45deg);
+}
+
+.triip2 {
+    opacity: 0;
+}
+
+.triip3 {
+    transform: translate(0, -11px) rotate(-45deg);
+}
+
+.menüü_sisu {
+    overflow: hidden;
+}
+
+.keha {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.pealkiri {
+    width: 100%;
+    height: 15%;
+}
+
+.pop, .hiphop, .dzass, .rock, .edm{
+    width: 100%;
+    height: 17%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0 7px 9px rgba(0, 0, 0, 0.2);
+}
+
+.pop:hover, .hiphop:hover, .dzass:hover, .rock:hover, .edm:hover {
+    transition: 1s ease;
+    opacity: 78%;
+}
+
+.pop:hover img, .hiphop:hover img, .dzass:hover img, .rock:hover img, .edm:hover img{
+    transform: scale(0.95);
+}
+
+.pop img {
+    position: absolute;
+    top: -550px;
+    left: -200px;
+    width: 2000px;
+    opacity: 80%;
+    transform-origin: calc(43% - 200px * var(--width-ratio)) calc(50% - 550px * var(--height-ratio));
+    transition: 1s ease;
+}
+
+.hiphop img {
+    position: absolute;
+    top: -670px;
+    left: -100px;
+    width: 2000px;
+    opacity: 80%;
+    transform-origin: calc(43% - 1400px * var(--width-ratio)) calc(50% - 670px * var(--height-ratio));
+    transition: 1s ease;
+}
+
+.dzass img {
+    position: absolute;
+    top: -500px;
+    left: -50px;
+    width: 2000px;
+    opacity: 80%;
+    transform-origin: calc(43% - 50px * var(--width-ratio)) calc(50% - 550px * var(--height-ratio));
+    transition: 1s ease;
+}
+
+.rock img{
+    position: absolute;
+    top: -750px;
+    left: -70px;
+    width: 2000px;
+    opacity: 80%;
+    transform-origin: calc(43% - 70px * var(--width-ratio)) calc(50% - 750px * var(--height-ratio));
+    transition: 1s ease;
+}
+
+.edm img{
+    position: absolute;
+    top: -850px;
+    left: -340px;
+    width: 2000px;
+    opacity: 80%;
+    transform-origin: calc(43% - 340px * var(--width-ratio)) calc(50% - 850px * var(--height-ratio));
+    transition: 1s ease;
+}
+
+.stiilinimi {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    z-index: 1;
+}
