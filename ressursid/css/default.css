@@ -1,0 +1,24 @@
+.main {
+    position: relative;
+    left: 50px;
+    width: 1920px;
+    background-size: 100% 100%;
+    background-image: url(rock_guitarist.jpg);
+}
+
+.panel {
+    position: relative;
+    left: 1000px;
+    width: 800px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 700px;
+    color: white;
+}
