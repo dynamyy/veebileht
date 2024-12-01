@@ -15,6 +15,11 @@ function menüütoggle() {
         grid_konteiner.style.transition = "all 2s";
         grid_konteiner.style.gridTemplateColumns = "0 1fr";
 
+        // Muudan ka sisu nähtamatuks, et ei tekiks visuaalseid vigu
+        const menuu_sisu = document.getElementById("menüü_sisu");
+        menuu_sisu.style.transition = "all 2s";
+        menuu_sisu.style.opacity = "0";
+
         // Muudan menüünupu välimuse
         const nuputriibud = document.getElementsByClassName("nuputriip");
         for (const triip of nuputriibud) {
@@ -27,7 +32,7 @@ function menüütoggle() {
         // Liigutan menüünuppu
         const menüünupp = document.getElementById("menüü_sulge");
         menüünupp.style.transition = "all 2s";
-        menüünupp.style.left = ("105%");
+        menüünupp.style.right = ("calc(8% - 40px)");
 
         // Uuendan menüü oleku muutujat
         menüü_suletud = true;
@@ -36,6 +41,11 @@ function menüütoggle() {
         const grid_konteiner = document.getElementById("grid-konteiner");
         grid_konteiner.style.transition = "all 2s";
         grid_konteiner.style.gridTemplateColumns = "20% 80%";
+
+        // Muudan sisu uuesti nähtavaks
+        const menuu_sisu = document.getElementById("menüü_sisu");
+        menuu_sisu.style.transition = "all 2s";
+        menuu_sisu.style.opacity = "1";
 
         // Muudan menüünupu välimuse
         const nuputriibud = document.getElementsByClassName("nuputriip");
@@ -49,7 +59,7 @@ function menüütoggle() {
         // Liigutan menüünuppu
         const menüünupp = document.getElementById("menüü_sulge");
         menüünupp.style.transition = "all 2s";
-        menüünupp.style.left = "calc(95% - 30px)";
+        menüünupp.style.right = "0";
 
         // Uuendan menüü oleku muutujat
         menüü_suletud = false;

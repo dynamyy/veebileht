@@ -11,59 +11,48 @@
 <body>
 <div class="grid-konteiner" id="grid-konteiner">
     <div class="menüü" id="menüü">
+        <div class="menüü_taustapilt">
+            <img src="/ressursid/pildid/menu_pilt.jpg">
+        </div>
         <div class="menüünupp" id="menüü_sulge">
             <div class="nuputriip triip1"></div>
             <div class="nuputriip triip2"></div>
             <div class="nuputriip triip3"></div>
         </div>
-        <div class="menüü_sisu">
-            <h2>Menüü</h2>
-            <p>Siin on kõik alamlehed</p>
-            <a href="/Pealehed/pop.html">Pop</a>
-            <br>
-            <a href="#">Dance pop</a>
-            <br>
-            <a href="#">K-Pop</a>
-            <br>
-            <a href="#">Electropop</a>
-            <br>
-            <br>
-            <a href="./hip-hop.html">Hip-hop</a>
-            <br>
-            <a href="#">Trap</a>
-            <br>
-            <a href="#">Boom bap</a>
-            <br>
-            <a href="#">Cloud rap</a>
-            <br>
-            <br>
-            <a href="/Pealehed/rokk.html">Rock</a>
-            <br>
-            <a href="#">Alternatiivne rock</a>
-            <br>
-            <a href="#">Extreme metal</a>
-            <br>
-            <a href="#">Progressive rock</a>
-            <br>
-            <br>
-            <a href="./džäss.html">Džäss</a>
-            <br>
-            <a href="#">Džäss-bluus</a>
-            <br>
-            <a href="#">Hard-bop</a>
-            <br>
-            <a href="#">Soul džäss</a>
-            <br>
-            <br>
-            <a href="./edm.html">EDM</a>
-            <br>
-            <a href="#">House</a>
-            <br>
-            <a href="#">Techno</a>
-            <br>
-            <a href="#">Dubstep</a>
+        <div class="menüü_sisu" id="menüü_sisu">
+            <h2 class="menüü_pealkiri">Menüü</h2>
+            <p class="menüü_kirjeldus">Siin on kõik alamlehed</p>
+            <div class="stiil pea_pop">
+                <a class="peaviide pea_pop" href="/Pealehed/pop.html">Pop</a>
+                <a class="alaviide viide_pop" href="#">Dance pop</a>
+                <a class="alaviide viide_pop" href="#">K-Pop</a>
+                <a class="alaviide viide_pop" href="#">Electropop</a>
+            </div>
+            <div class="stiil pea_hiphop">
+                <a class="peaviide pea_hiphop" href="/Pealehed/hiphop.html">Hip-hop</a>
+                <a class="alaviide viide_hiphop" href="#">Trap</a>
+                <a class="alaviide viide_hiphop" href="#">Boom bap</a>
+                <a class="alaviide viide_hiphop" href="#">Cloud rap</a>
+            </div>
+            <div class="stiil pea_rokk">
+                <a class="peaviide pea_rokk" href="/Pealehed/rokk.html">Rock</a>
+                <a class="alaviide viide_rokk" href="#">Alternatiivne rock</a>
+                <a class="alaviide viide_rokk" href="#">Extreme metal</a>
+                <a class="alaviide viide_rokk" href="#">Progressive rock</a>
+            </div>
+            <div class="stiil pea_dzass">
+                <a class="peaviide pea_dzass" href="/Pealehed/dzass.html">Džäss</a>
+                <a class="alaviide viide_dzass" href="#">Džäss-bluus</a>
+                <a class="alaviide viide_dzass" href="#">Hard-bop</a>
+                <a class="alaviide viide_dzass" href="#">Soul džäss</a>
+            </div>
+            <div class="stiil pea_edm">
+                <a class="peaviide pea_edm" href="/Pealehed/edm.html">EDM</a>
+                <a class="alaviide viide_edm" href="#">House</a>
+                <a class="alaviide viide_edm" href="#">Techno</a>
+                <a class="alaviide viide_edm" href="#">Dubstep</a>
+            </div>
         </div>
-
     </div>
     <div class="keha">
         <div class="pealkiri">
@@ -76,24 +65,30 @@
                 <div class="stiilinimi">POP</div>
             </div>
         </a>
-        <div class="hiphop">
-            <img src="ressursid/pildid/pealehe_pildid/hiphop.jpg">
-            <div class="stiilinimi">HIP-HOP</div>
-        </div>
-        <div class="dzass">
-            <img src="ressursid/pildid/pealehe_pildid/dzass.jpg">
-            <div class="stiilinimi">DŽÄSS</div>
-        </div>
+        <a href="/Pealehed/hiphop.html">
+            <div class="hiphop">
+                <img src="ressursid/pildid/pealehe_pildid/hiphop.jpg">
+                <div class="stiilinimi">HIP-HOP</div>
+            </div>
+        </a>
+        <a href="/Pealehed/dzass.html">
+            <div class="dzass">
+                <img src="ressursid/pildid/pealehe_pildid/dzass.jpg">
+                <div class="stiilinimi">DŽÄSS</div>
+            </div>
+        </a>
         <a href="/Pealehed/rokk.html">
             <div class="rock">
                 <img src="ressursid/pildid/pealehe_pildid/rock.jpg">
                 <div class="stiilinimi">ROKK</div>
             </div>
         </a>
-        <div class="edm">
-            <img src="/ressursid/pildid/pealehe_pildid/edm2.jpg">
-            <div class="stiilinimi">EDM</div>
-        </div>
+        <a href="/Pealehed/edm.html">
+            <div class="edm">
+                <img src="/ressursid/pildid/pealehe_pildid/edm2.jpg">
+                <div class="stiilinimi">EDM</div>
+            </div>
+        </a>
     </div>
 </div>
 </body>
