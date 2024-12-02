@@ -116,6 +116,32 @@ body, html {
     transition: height 0.3s ease;
 }
 
+.s_avalehele {
+    height: 10%;
+}
+
+.viide_avalehele {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(242, 242, 240, 0.2);
+    margin-top: 2%;
+    margin: 5% 0;
+    width: 95%;
+    height: 100%;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    transition: 0.35s ease;
+}
+
+.viide_avalehele:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    background-color: #00000014;
+}
+
 .stiil.pea_pop:hover .pea_pop{
     height: 30%;
 }
@@ -206,7 +232,6 @@ body, html {
     margin-top: 2%;
     width: 95%;
     height: 30%;
-    transition: height 0.3s ease;
     color: #F4F4F4;
     font-family: Fantasy;
     font-size: 1.5rem;
