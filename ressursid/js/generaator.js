@@ -3,7 +3,9 @@ Koodi autor: Egert
 
 Kasutatud materjale:
 https://www.w3schools.com/js/default.asp
-https://www.geeksforgeeks.org/how-to-execute-after-page-load-in-javascript/
+https://tr.javascript.info/onload-ondomcontentloaded
+
+Nupu reageerivuse idee kasutades setTimeout(() => {}) funktsiooni - ChatGPT
 
 Laulude andmed hangitud enda loodud Pythoni skriptiga kasutades andmebaasina:
     https://github.com/younver/spotify-top-200-dataset
@@ -3528,6 +3530,14 @@ let laulude_andmebaas = new Map([
 ]);
 
 function genereeri_laul() {
+    // Leian nupu elemendi
+    const gen_nupp = document.getElementById("gen_nupp");
+    // Muudan nupu 'reageerivaks' muutes hetkeks nuppu vähem läbipaistvaks
+    gen_nupp.style.backgroundColor = "rgba(29, 185, 84, 0.65)";
+    setTimeout(() => {
+        gen_nupp.style.backgroundColor = "";
+    }, 300);
+
     // Genereerin suvalise arvu 1-3512 (laulude arv andmebaasis)
     const suvaline_arv = Math.floor((Math.random() * 3512) + 1);
 

@@ -161,7 +161,7 @@ body, html {
     height: 30%;
 }
 
-.peaviide {
+.peaviide{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +177,7 @@ body, html {
     text-decoration: none;
 }
 
-.peaviide:hover {
+.peaviide:hover, .alaviide:hover{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
     background-color: #00000014;
 }
@@ -197,9 +197,30 @@ body, html {
     text-decoration: none;
 }
 
-.alaviide:hover {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+.viide_generaator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(242, 242, 240, 0.2);
+    margin-top: 2%;
+    width: 95%;
+    height: 30%;
+    transition: height 0.3s ease;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    transition: 0.35s ease;
+}
+
+.viide_generaator:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
     background-color: #00000014;
+}
+
+.stiil.s_generaator {
+    margin-top: 10%;
 }
 
 .keha {
