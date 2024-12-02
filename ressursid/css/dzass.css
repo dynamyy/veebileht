@@ -1,7 +1,13 @@
 .main {
     position: relative;
     height: 615px;
-    background-image: url(../pildid/peazanrite_pildid/dzass_peastiil.jpg);
+    background-image: url(../pildid/zanrite_pildid/dzass_peastiil.jpg);
     background-position: 45% center;
-    background-size: 120%;
+    background-size: 100%;
+}
+
+.tracks {
+    display: grid;
+    grid-template-columns: 49.9% 49.9%;
+    column-gap: 0.2%;
 }
