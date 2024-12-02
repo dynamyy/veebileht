@@ -252,3 +252,10 @@ body, html {
     grid-column: 2;
     grid-row: 1;
 }
+
+.song {
+    border-radius: 12px; 
+    width: 100%; 
+    border: none;
+    height: 152px;
+}
