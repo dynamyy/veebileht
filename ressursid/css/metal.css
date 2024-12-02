@@ -1,0 +1,11 @@
+.main {
+    position: relative;
+    height: 615px;
+    background-image: url(../pildid/zanrite_pildid/metal_guitarist.jpg);
+}
+
+.tracks {
+    display: grid;
+    grid-template-columns: 33.2% 33.2% 33.2%;
+    column-gap: 0.2%;
+}

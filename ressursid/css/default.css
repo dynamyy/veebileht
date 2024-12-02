@@ -1,0 +1,254 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    background-color: rgb(15, 15, 15);
+}
+
+.grid-konteiner {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+}
+
+.menüü {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    text-wrap: nowrap;
+}
+
+.menüü_pealkiri {
+    text-align: center;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 3rem;
+    margin: 4% 0 0 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.menüü_kirjeldus {
+    text-align: center;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 1.5rem;
+    margin: 4% 0 0 0;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.menüü_taustapilt {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 5;
+}
+
+.menüü_taustapilt img {
+    position: absolute;
+    top: -200px;
+    left: -200px;
+    width: 2000px;
+    opacity: 40%;
+    z-index: 5;
+}
+
+.menüünupp {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    z-index: 20;
+}
+
+.nuputriip {
+    width: 35px;
+    height: 5px;
+    background-color: #F0EAD6;
+    margin: 6px 0;
+    width: 40px;
+    border-radius: 5px;
+}
+
+.triip1 {
+    transform: translate(0, 11px) rotate(45deg);
+}
+
+.triip2 {
+    opacity: 0;
+}
+
+.triip3 {
+    transform: translate(0, -11px) rotate(-45deg);
+}
+
+.menüü_sisu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    transform-origin: right center;
+    overflow: hidden;
+}
+
+.stiil {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+    transition: height 0.3s ease;
+}
+
+.s_avalehele {
+    height: 10%;
+}
+
+.viide_avalehele {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(242, 242, 240, 0.2);
+    margin-top: 2%;
+    margin: 5% 0;
+    width: 95%;
+    height: 100%;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    transition: 0.35s ease;
+}
+
+.viide_avalehele:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    background-color: #00000014;
+}
+
+.stiil.pea_pop:hover .pea_pop{
+    height: 30%;
+}
+
+.stiil.pea_pop:hover .viide_pop {
+    display: flex;
+    height: 30%;
+}
+
+.stiil.pea_hiphop:hover .pea_hiphop{
+    height: 30%;
+}
+
+.stiil.pea_hiphop:hover .viide_hiphop {
+    display: flex;
+    height: 30%;
+}
+
+.stiil.pea_rokk:hover .pea_rokk{
+    height: 30%;
+}
+
+.stiil.pea_rokk:hover .viide_rokk {
+    display: flex;
+    height: 30%;
+}
+
+.stiil.pea_dzass:hover .pea_dzass{
+    height: 30%;
+}
+
+.stiil.pea_dzass:hover .viide_dzass {
+    display: flex;
+    height: 30%;
+}
+
+.stiil.pea_edm:hover .pea_edm{
+    height: 30%;
+}
+
+.stiil.pea_edm:hover .viide_edm {
+    display: flex;
+    height: 30%;
+}
+
+.peaviide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(242, 242, 240, 0.2);
+    margin-top: 2%;
+    width: 95%;
+    height: 100%;
+    transition: height 0.3s ease;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.peaviide:hover, .alaviide:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    background-color: #00000014;
+}
+
+.alaviide {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(242, 242, 240, 0.2);
+    width: 95%;
+    height: 0;
+    transition: height 0.3s ease, opacity 0.3s ease;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.viide_generaator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(242, 242, 240, 0.2);
+    margin-top: 2%;
+    width: 95%;
+    height: 30%;
+    color: #F4F4F4;
+    font-family: Fantasy;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    transition: 0.35s ease;
+}
+
+.viide_generaator:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    background-color: #00000014;
+}
+
+.stiil.s_generaator {
+    margin-top: 10%;
+}
+
+.keha {
+    grid-column: 2;
+    grid-row: 1;
+}
