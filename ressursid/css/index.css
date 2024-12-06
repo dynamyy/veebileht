@@ -4,14 +4,9 @@
     height: 100vh;
 }
 
-.pealkiri {
-    width: 100%;
-    height: 15%;
-}
-
 .pop, .hiphop, .dzass, .rock, .edm{
     width: 100%;
-    height: 17%;
+    height: 20%;
     overflow: hidden;
     position: relative;
     border-radius: 15px;
@@ -29,31 +24,31 @@
 
 .pop img {
     position: absolute;
-    top: -550px;
-    left: -200px;
-    width: 2000px;
+    top: -650px;
+    left: -100px;
+    width: 2400px;
     opacity: 80%;
-    transform-origin: calc(43% - 200px * var(--width-ratio)) calc(50% - 550px * var(--height-ratio));
+    transform-origin: calc(43% - 100px * var(--width-ratio)) calc(50% - 650px * var(--height-ratio));
     transition: 1s ease;
 }
 
 .hiphop img {
     position: absolute;
-    top: -670px;
+    top: -830px;
     left: -100px;
-    width: 2000px;
+    width: 2400px;
     opacity: 80%;
-    transform-origin: calc(43% - 1400px * var(--width-ratio)) calc(50% - 670px * var(--height-ratio));
+    transform-origin: calc(43% - 100px * var(--width-ratio)) calc(50% - 830px * var(--height-ratio));
     transition: 1s ease;
 }
 
 .dzass img {
     position: absolute;
     top: -500px;
-    left: -50px;
-    width: 2000px;
+    left: -100px;
+    width: 2400px;
     opacity: 80%;
-    transform-origin: calc(43% - 50px * var(--width-ratio)) calc(50% - 550px * var(--height-ratio));
+    transform-origin: calc(43% - 100px * var(--width-ratio)) calc(50% - 500px * var(--height-ratio));
     transition: 1s ease;
 }
 
@@ -61,7 +56,7 @@
     position: absolute;
     top: -750px;
     left: -70px;
-    width: 2000px;
+    width: 2400px;
     opacity: 80%;
     transform-origin: calc(43% - 70px * var(--width-ratio)) calc(50% - 750px * var(--height-ratio));
     transition: 1s ease;
@@ -71,7 +66,7 @@
     position: absolute;
     top: -850px;
     left: -340px;
-    width: 2000px;
+    width: 2400px;
     opacity: 80%;
     transform-origin: calc(43% - 340px * var(--width-ratio)) calc(50% - 850px * var(--height-ratio));
     transition: 1s ease;
