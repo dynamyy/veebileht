@@ -4,3 +4,9 @@
     background-image: url(../pildid/zanrite_pildid/edm_peastiil.jpg);
     background-position: 45% 45%;
 }
+
+.tracks {
+    display: grid;
+    grid-template-columns: 33.2% 33.2% 33.2%;
+    column-gap: 0.2%;
+}

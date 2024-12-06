@@ -7,18 +7,6 @@
     background-repeat: no-repeat;
 }
 
-.panel {
-    padding: 8% 5% 0% 5%;
-}
-
-.opinion1 {
-    background-color: rgb(122, 83, 57);
-}
-
-.opinion2 {
-    background-color: rgb(122, 83, 57);
-}
-
 .tracks {
     display: grid;
     grid-template-columns: 49.9% 49.9%;

@@ -6,18 +6,6 @@
     background-size: 1800px;
 }
 
-.panel {
-    padding: 8% 5% 0% 5%;
-}
-
-.opinion1 {
-    background-color: rgb(57, 42, 69);
-}
-
-.opinion2 {
-    background-color: rgb(57, 42, 69);
-}
-
 .tracks {
     display: grid;
     grid-template-columns: 33.2% 33.2% 33.2%;
