@@ -2,7 +2,9 @@
     position: relative;
     height: 615px;
     background-image: url(../pildid/zanrite_pildid/petrucci.png);
-    background-size: 100%;
+    background-position: 45% center;
+    background-size: 1500px;
+    background-repeat: no-repeat;
 }
 
 .panel {

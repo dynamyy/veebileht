@@ -2,7 +2,8 @@
     position: relative;
     height: 615px;
     background-image: url(../pildid/zanrite_pildid/trap.jpg);
-    background-size: 100%;
+    background-position: 45% center;
+    background-size: 1400px;
 }
 
 .panel {

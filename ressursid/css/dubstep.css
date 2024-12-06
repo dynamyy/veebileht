@@ -2,7 +2,8 @@
     position: relative;
     height: 615px;
     background-image: url(../pildid/zanrite_pildid/dubstep.jpg);
-    background-size: 100%;
+    background-size: 1400px;
+    background-position: 45% 80%;
 }
 
 .panel {

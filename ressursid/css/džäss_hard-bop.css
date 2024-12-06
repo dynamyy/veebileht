@@ -3,7 +3,8 @@
     height: 615px;
     background-image: url(../pildid/zanrite_pildid/hard-bop.jpg);
     background-position: 45% center;
-    background-size: 100%;
+    background-size: 1400px;
+    background-repeat: no-repeat;
 }
 
 .tracks {

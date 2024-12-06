@@ -4,21 +4,3 @@
     background-image: url(../pildid/zanrite_pildid/edm_peastiil.jpg);
     background-position: 45% 45%;
 }
-
-.panel {
-    margin-left: 49.5%;
-}
-
-.opinion1 {
-    background-color: rgb(79, 113, 125);
-}
-
-.opinion2 {
-    background-color: rgb(79, 113, 125);
-}
-
-.tracks {
-    display: grid;
-    grid-template-columns: 33.2% 33.2% 33.2%;
-    column-gap: 0.2%;
-}
