@@ -10,7 +10,13 @@ body, html {
 
 .font {
     color: #F4F4F4;
-    font-family: Fantasy;
+    font-family: Corbel;
+}
+
+
+a {
+    color: #F4F4F4;
+    font-family: Corbel;
 }
 
 .grid-konteiner {
@@ -31,8 +37,6 @@ body, html {
 
 .menüü_pealkiri {
     text-align: center;
-    color: #F4F4F4;
-    font-family: Fantasy;
     font-size: 3rem;
     margin: 4% 0 0 0;
     width: 100%;
@@ -42,8 +46,6 @@ body, html {
 
 .menüü_kirjeldus {
     text-align: center;
-    color: #F4F4F4;
-    font-family: Fantasy;
     font-size: 1.5rem;
     margin: 4% 0 0 0;
     width: 90%;
@@ -135,8 +137,6 @@ body, html {
     margin: 5% 0;
     width: 95%;
     height: 100%;
-    color: #F4F4F4;
-    font-family: Fantasy;
     font-size: 1.5rem;
     text-decoration: underline;
     transition: 0.35s ease;
@@ -202,8 +202,6 @@ body, html {
     width: 95%;
     height: 100%;
     transition: height 0.3s ease;
-    color: #F4F4F4;
-    font-family: Fantasy;
     font-size: 1.5rem;
     text-decoration: none;
 }
@@ -222,8 +220,6 @@ body, html {
     width: 95%;
     height: 0;
     transition: height 0.3s ease, opacity 0.3s ease;
-    color: #F4F4F4;
-    font-family: Fantasy;
     font-size: 1rem;
     text-decoration: none;
 }
@@ -237,8 +233,6 @@ body, html {
     margin-top: 2%;
     width: 95%;
     height: 30%;
-    color: #F4F4F4;
-    font-family: Fantasy;
     font-size: 1.5rem;
     text-decoration: underline;
     transition: 0.35s ease;
