@@ -13,7 +13,7 @@ Laulude andmed hangitud enda loodud Pythoni skriptiga kasutades andmebaasina:
 */
 
 
-// Laulude info, oleks tahtnud teise faili panna, aga see tekitas vigu ja ei olnud aega teostada
+// Laulude info
 let laulude_andmebaas = new Map([
     [1, ["Starboy", "5aAx2yezTd8zXrkmtKl66Z", "canadian contemporary r&b", "canadian pop, pop"]],
     [2, ["Closer", "7BKLCZ1jbUBVqRi2FVlTVw", "dance pop", "edm, electropop, pop, pop dance, tropical house"]],
